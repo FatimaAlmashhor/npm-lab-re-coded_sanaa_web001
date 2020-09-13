@@ -4,7 +4,7 @@
   "description": "## Overview",
   "main": "index.js",
   "scripts": {
-   "test": "mocha -R mocha-multi --reporter-options spec=-,json=.results.json"
+    "test": "mocha -R mocha-multi --reporter-options spec=-,json=.results.json"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/FatimaAlmashhor/npm-lab-re-coded_sanaa_web001/issues"
   },
-  "homepage": "https://github.com/FatimaAlmashhor/npm-lab-re-coded_sanaa_web001#readme"
+  "homepage": "https://github.com/FatimaAlmashhor/npm-lab-re-coded_sanaa_web001#readme",
+  "dependencies": {
+    "moment": "^2.27.0"
+  }
 }
